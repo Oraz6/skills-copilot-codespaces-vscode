@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int N = 1234, sum = 0;
+        while (N > 0)
+        {
+            sum += N % 10;
+            N /= 10;
+        }
+        Console.WriteLine($"Цифрлар қосындысы: {sum}");
+    }
+}
